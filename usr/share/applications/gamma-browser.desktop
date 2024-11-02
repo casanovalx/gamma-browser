@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name: Gamma Browser
+Exec : /etc/gamma-browser.sh
+Type : application
+Icon : /usr/share/icons/gamma.ico
+Comment : Basic browser written in PyQt and using Qt Web Engine
