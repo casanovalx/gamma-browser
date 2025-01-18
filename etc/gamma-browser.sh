@@ -1,3 +1,3 @@
 #!/bin/sh
 
-python3 /usr/bin/browser.py
+python3 /usr/bin/gamma-browser.py
