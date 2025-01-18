@@ -36,7 +36,7 @@ sudo dnf5 install python3-pyside6 python-pyqt6-webengine
 Copy the repository to your system and enter the directory:
 
 ```
-git clone https://github.com/casanovalx/gamma-browser
+git clone https://github.com/casanovalx/gamma-browser && cd gamma-browser
 ```
 
 Start the shell script in the folder:
