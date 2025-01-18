@@ -1,6 +1,8 @@
 [Desktop Entry]
-Name: Gamma Browser
-Exec : /etc/gamma-browser.sh
-Type : Application
-Icon : /usr/share/icons/gamma.png
-Comment : Basic browser written in PySide and using QtWebEngine
+Name=Gamma Browser
+Exec=/etc/gamma-browser.sh
+Type=Application
+Icon=/usr/share/icons/gamma.png
+Comment=Basic browser written in PySide and using QtWebEngine
+Categories=Network
+GenericName=Browser
