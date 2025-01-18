@@ -1,13 +1,66 @@
 # Gamma Browser
-A basic browser written in PyQt and utilizing Qt Web Engine.
-Contains: 1 shell script for launch, desktop entry, one .py file (the browser itself) and an icon
-Directories:
-Shell script: /etc/gamma-browser.sh
-Desktop entry: /usr/share/applications/gamma-browser.desktop
-Browser itself: /usr/bin/browser.py
-Icon: /usr/share/icons/gamma.ico
-WARNING! Before installing, install dependencies (writing for Arch):
-python3 
-pyqt6 (all)
-The browser's very basic, not letting you to download stuff, doesn't have settings menu (if not to edit the .py file), can't start search from the address bar (if something like "Taylor Swift" is just entered, it demands for a URL address), and many other features I won't be able to realize due to my dull knowledge of PyQt and Python itself. So, I hope there will be a little community that'll love to help it grow.
-Respect, E.G.
+
+Browser written in PyQt (before)/PySide and utilizing QtWebEngine
+
+Installation:
+
+### Arch Linux:
+
+Install PySide6 and QtWebEngine:
+
+```
+sudo pacman -S pyside6 python-pyqt6-webengine
+```
+
+Copy the repository to your system and enter the directory:
+
+```
+git clone https://github.com/casanovalx/gamma-browser.git && cd gamma-browser
+```
+Start the shell script in the folder:
+
+```
+./install.sh
+```
+
+After copying is over, restart the system.
+
+### Fedora 41 and newer:
+
+Install PySide6 and QtWebEngine:
+
+```
+sudo dnf5 install python3-pyside6 python-pyqt6-webengine
+```
+
+Copy the repository to your system and enter the directory:
+
+```
+git clone https://github.com/casanovalx/gamma-browser
+```
+
+Start the shell script in the folder:
+
+```
+./install.sh
+```
+
+## FAQ
+
+1. Why there's no more Ubuntu releases?
+
+Very simple: Ubuntu updates it's packages much slower, and I won't recommend you compiling PySide6 and QtWebEngine via pip or source code.
+
+2. The shell script won't work. What to do?
+
+Make the shell script executable. To do so, open the terminal in the directory you copied and write:
+
+```
+sudo chmod +x install.sh
+```
+
+And then, start it again.
+
+3. Will there be an AUR/Copr repository?
+
+No idea. I never looked it as an opportunity.
