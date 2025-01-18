@@ -1,4 +1,6 @@
 {
     "home_url": "https://www.duckduckgo.com",
-    "default_search_engine": "Google"
+    "default_search_engine": "DuckDuckGo",
+    "dark_mode": false,
+    "show_toolbar": true
 }
